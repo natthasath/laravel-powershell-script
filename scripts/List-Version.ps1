@@ -37,5 +37,5 @@ foreach ($result in $results) {
 }
 
 # Output the Markdown table
-$markdownTable | Out-File "E:\www\demo\project_versions.md"
+$markdownTable | Out-File "E:\code\repo\laravel-powershell-script\project_versions.md"
 Write-Host "All projects' versions have been collected and saved to project_versions.md"
